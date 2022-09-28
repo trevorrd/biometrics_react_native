@@ -11,6 +11,8 @@ PODS:
     - ExpoModulesCore
   - EXFont (10.2.1):
     - ExpoModulesCore
+  - EXLocalAuthentication (12.3.0):
+    - ExpoModulesCore
   - Expo (46.0.13):
     - ExpoModulesCore
   - ExpoKeepAwake (10.2.0):
@@ -316,6 +318,7 @@ DEPENDENCIES:
   - EXErrorRecovery (from `../node_modules/expo-error-recovery/ios`)
   - EXFileSystem (from `../node_modules/expo-file-system/ios`)
   - EXFont (from `../node_modules/expo-font/ios`)
+  - EXLocalAuthentication (from `../node_modules/expo-local-authentication/ios`)
   - Expo (from `../node_modules/expo`)
   - ExpoKeepAwake (from `../node_modules/expo-keep-awake/ios`)
   - ExpoModulesCore (from `../node_modules/expo-modules-core/ios`)
@@ -371,6 +374,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/expo-file-system/ios"
   EXFont:
     :path: "../node_modules/expo-font/ios"
+  EXLocalAuthentication:
+    :path: "../node_modules/expo-local-authentication/ios"
   Expo:
     :path: "../node_modules/expo"
   ExpoKeepAwake:
@@ -443,15 +448,16 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   boost: a7c83b31436843459a1961bfd74b96033dc77234
   DoubleConversion: 5189b271737e1565bdce30deb4a08d647e3f5f54
-  EXApplication: 64a38a15788ec0a9d01eb69683288f30c0726a64
-  EXConstants: e15cbb0181ab1411ef2b5d4b5e8ecdc9b30aeed5
-  EXErrorRecovery: 550d48c3575dcd83538abd7f13f52d30c4fecdb0
-  EXFileSystem: 3b71e2d1d4a3cd7cc4e2875913b9a96b34d323e3
-  EXFont: 0be44924d5000938c74715b2056fd7972ba65a05
-  Expo: acdd343bb013d15b7310c23b69306f7c212669ff
-  ExpoKeepAwake: d8ca9d3195d7d30f39d04ce79d2f0890f8d7ba00
-  ExpoModulesCore: f1f7203040b469d142e71f362f2f551be7367279
-  EXSplashScreen: 5b3373106c26fbdf32b8bb76b8004b7881dd8a53
+  EXApplication: e418d737a036e788510f2c4ad6c10a7d54d18586
+  EXConstants: 7c44785d41d8e959d527d23d29444277a4d1ee73
+  EXErrorRecovery: 74d71ee59f6814315457b09d68e86aa95cc7d05d
+  EXFileSystem: 927e0a8885aa9c49e50fc38eaba2c2389f2f1019
+  EXFont: 06df627203afcb8a3b3152ec06eb2f11f46f0cff
+  EXLocalAuthentication: a714f4e7370c4efba4ed4345a55110f22ac3d85f
+  Expo: 39582e41ae9e0aa9ed016d3918da87ee61e87525
+  ExpoKeepAwake: 0e8f18142e71bbf2c7f6aa66ebed249ba1420320
+  ExpoModulesCore: 5a973701f4400d70254bc836305228731c829010
+  EXSplashScreen: 799bece80089219b2c989c1082d70f3b00995cda
   FBLazyVector: 739d2f9719faecb463c7aa191591af31c8c94182
   FBReactNativeSpec: 957de82f66e31f2f14bbec34e37242282fdd26de
   fmt: ff9d55029c625d3757ed641535fd4a75fedc7ce9
@@ -486,4 +492,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 38db3636566c05ea9a6e8b36951ab39dc8bf15b6
 
-COCOAPODS: 1.11.3
+COCOAPODS: 1.10.1
